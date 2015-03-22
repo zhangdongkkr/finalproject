@@ -1,0 +1,12 @@
+This project doesn't run, there are backend piece that are missing from this project.
+
+This project is intend to allow user to create marketing materials and send it to their contacts.
+It will allow user to bulk upload contacts to the server as well as create/update contact from the UI.
+User will also be create mailing template that would use to send out the marketing materials.
+
+On the contact list screen, which is created using ng-grid, the left hand side list out the contact info, while the right hand
+side list out the marketing materials that they have received.
+
+the project is not finish yet, as the last screen send mailing is not completed.
+
+the mailings and contacts screen (both listing and profile are working).

@@ -1,0 +1,24 @@
+<nav class="navbar navbar-static-top navbar-inverse" ng-controller="NavbarCtrl">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand">
+        <span class="glyphicon glyphicon-home"></span> Marketing Machine
+      </a>
+    </div>
+
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-6">
+      <ul class="nav navbar-nav">
+        <li><a ui-sref="home.contactList">My Contact</a></li>
+        <li><a ui-sref="home.contactProfile">Add New Contact</a></li>
+        <li><a ui-sref="home.contactList" ng-click="openBulkUpload()">Bulk Upload</a></li>
+        <li><a ui-sref="home.mailings">Mailing List</a></li>
+        <li><a ui-sref="home.mailingsProfile">Create New Mailing</a></li>
+        <li><a ui-sref="home.send">Send Mailing</a></li>
+      </ul>
+
+      <ul class="nav navbar-nav navbar-right">
+        <li>Current date: {{ date | date:'yyyy-MM-dd' }}</li>
+      </ul>
+    </div>
+  </div>
+</nav>

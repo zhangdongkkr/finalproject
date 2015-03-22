@@ -1,0 +1,14 @@
+<table>
+  <tr>
+    <td style="width:60%">
+      <div ng-grid="gridOptions"  style="width: 100%; height: 600px;"></div>
+    </td>
+    <td style="width:35%; vertical-align: top">
+      <div style="width: 100%; height: 600px">
+        <ul>
+          <li ng-repeat="item in receivedItems">{{item.emailName}}</li>
+        </ul>
+      </div>
+    </td>
+  </tr>
+  </table>
